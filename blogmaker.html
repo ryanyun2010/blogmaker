@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<title>Blog Maker</title>
+		<style>
+			*{
+				color:unset;
+				text-decoration:unset;
+				margin:unset;
+				padding:unset;
+				box-sizing:unset;
+				font-size:unset;
+			}
+			body{
+				font-size:30px;
+				width:100vw;
+				text-align:center
+			}
+			input{
+				width:100vw;
+				height:30px;
+			}
+			p,button{
+				margin-top:100px;
+				margin:auto;
+				font-size:30px;
+				background-color:#eeeeee;
+				width:40vw;
+			}
+			#q2,#q3,#q4{
+				display:none;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="q1">
+		How are you feeling today:<br>
+		<input id="feeling"><br>
+		<button id="next1">Next</button>
+		</div>
+		<div id="q2">
+		What is your high point today:<br>
+		<input id="highpoint"><br>
+		<button id="next2">Next</button>
+		</div>
+		<div id="q3">
+		What is your low point today:<br>
+		<input id="lowpoint">
+		<button id="next3">Next</button>
+		</div>
+		<div id="q4">
+			What color do you want:
+			<input id="color">
+		<p id="download">Submit</p>
+		</div>
+<script src="blogmaker.js">
+
+		</script>
+	</body>
+</html>
