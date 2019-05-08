@@ -48,3 +48,16 @@ document.getElementById("next3").addEventListener('click',function(){
 	document.getElementById("q3").style.display="none";
 	document.getElementById("q4").style.display="block"
 });
+
+document.getElementById("back2").addEventListener('click',function(){
+	document.getElementById("q2").style.display="none";
+	document.getElementById("q1").style.display="block"
+});
+document.getElementById("back3").addEventListener('click',function(){
+	document.getElementById("q3").style.display="none";
+	document.getElementById("q2").style.display="block"
+});
+document.getElementById("back4").addEventListener('click',function(){
+	document.getElementById("q4").style.display="none";
+	document.getElementById("q3").style.display="block"
+});

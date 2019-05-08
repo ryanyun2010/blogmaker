@@ -16,40 +16,58 @@
 				text-align:center
 			}
 			input{
-				width:100vw;
+				width:60vw;
 				height:30px;
 			}
 			p,button{
 				margin-top:100px;
 				margin:auto;
+				margin-top:auto
 				font-size:30px;
-				background-color:#eeeeee;
+				background-color:#dddddd;
 				width:40vw;
+			}
+			div {
+				position:absolute;
+				top:15vh;
+					left:15vw;
+					width:70vw;
+					height:70vw;
+					background-color:#eeeeee;
+					border-radius:400px;
 			}
 			#q2,#q3,#q4{
 				display:none;
+			}
+			div input,button,p  {
+				position:relative;
+				top:20vh;
+
 			}
 		</style>
 	</head>
 	<body>
 		<div id="q1">
-		How are you feeling today:<br>
-		<input id="feeling"><br>
+			<p>How are you feeling today:</p><br><br><br>
+			<input id="feeling"><br><br><br>
 		<button id="next1">Next</button>
 		</div>
 		<div id="q2">
-		What is your high point today:<br>
-		<input id="highpoint"><br>
+			<p>	What is your high point today:</p><br><br><br>
+			<input id="highpoint"><br><br><br>
 		<button id="next2">Next</button>
+		<button id="back2">Back</button>
 		</div>
 		<div id="q3">
-		What is your low point today:<br>
-		<input id="lowpoint">
+			<p>	What is your low point today:</p><br><br><br>
+			<input id="lowpoint"><br><br><br>
 		<button id="next3">Next</button>
+		<button id="back3">Back</button>
 		</div>
 		<div id="q4">
-			What color do you want:
-			<input id="color">
+			<p>	What color do you want:</p><br><br><br>
+			<input id="color"><br><br><br>
+		<button id="back4">Back</button>
 		<p id="download">Submit</p>
 		</div>
 <script src="blogmaker.js">
